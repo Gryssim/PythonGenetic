@@ -1,2 +1,3 @@
 # PythonGenetic
-Showcase Project for Python
+
+//TODO Write a meaningful README
