@@ -5,11 +5,13 @@ import sys
 from PyQt5.QtWidgets import (QApplication, QWidget, QPushButton, QToolTip)
 from PyQt5.QtGui import QFont
 from PyQt5.QtCore import QCoreApplication
+from MainWindow import Ui_MainWindow
 import Window
 
 
 app = QApplication(sys.argv)
-window = Window.Window(150, 150, 800, 600, "Testing...")
+window = Window.Window()
+window.show()
 
 
 sys.exit(app.exec_())
